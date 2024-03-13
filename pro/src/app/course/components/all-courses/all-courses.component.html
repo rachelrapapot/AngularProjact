@@ -1,0 +1,145 @@
+<!-- 
+<ul>
+    <li *ngFor="let course of courses">
+      <h2>{{course.name}}</h2>
+      <img src="{{course.image}}" alt="{{course.name}}">
+      <button (click)="details(course)"></button>
+    </li>
+</ul> -->
+
+
+   
+ <!-- <app-header></app-header> -->
+<!-- 
+<select [(ngModel)]="selectedCategoryId" (change)="filterCourses()">
+  <option [value]="0">בחר קטגוריה</option>
+  <option *ngFor="let category of categories" [value]="category.id">
+    {{ category.name }}
+  </option>
+</select>
+
+<input type="text" [(ngModel)]="searchName" (change)="filterCourses()" placeholder="חיפוש לפי שם">
+
+
+
+<button (click)="filterCourses()">סנן</button> -->
+
+
+<!-- <div class="container-fluid">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="card" style="position: fixed; left: 5vw; top: 16vh;">
+        <div class="card-header">
+          filtering
+        </div>
+        <div class=" card-body"> 
+          
+          <select   class="form-select mb-2" [(ngModel)]="selectedCategoryId" (change)="filterCourses()">
+          
+            <option *ngFor="let category of categories" [value]="category.id">
+              {{ category.name }}
+            </option>
+          </select>
+
+          <input type="text" class="form-control mb-2" [(ngModel)]="searchName" (change)="filterCourses()" placeholder="Search by name  ">
+ <button style="background-color: #ff69b4; border-color: #ff69b4;" class="form-control mb-2" (click)="ranon()" >All Courses</button>
+          <button class="btn btn-primary" style="background-color: #ff69b4; border-color: #ff69b4;" (click)="filterCourses()">סנן</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-9">
+      <div class="row">
+        <div *ngFor="let course of courses" class="col-md-4 mb-3">
+          <div class="card">
+            <div class="card-img-container">
+              <img [src]="course.image" class="card-img" alt="{{course.name}}">
+              <div class="card-overlay"></div>
+            </div>
+            <div class="card-body card-hover">
+              <h5 class="card-title" style="color: #eea9c9;">{{course.name}}</h5>
+              <ng-container *ngIf="userJson">
+                <button class="btn btn-outline-primary boo" style="color: #495057; border-color: #495057;" (click)="details(course)">More Details</button>
+              </ng-container>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+<!-- 
+<ul>
+    <li *ngFor="let course of courses">
+      <h2>{{course.name}}</h2>
+      <img src="{{course.image}}" alt="{{course.name}}">
+      <button (click)="details(course)"></button>
+    </li>
+</ul> -->
+
+
+   
+<app-header></app-header>
+<!-- 
+<select [(ngModel)]="selectedCategoryId" (change)="filterCourses()">
+  <option [value]="0">בחר קטגוריה</option>
+  <option *ngFor="let category of categories" [value]="category.id">
+    {{ category.name }}
+  </option>
+</select>
+
+<input type="text" [(ngModel)]="searchName" (change)="filterCourses()" placeholder="חיפוש לפי שם">
+
+
+
+<button (click)="filterCourses()">סנן</button> -->
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="card" style="position: fixed; left: 5vw; top: 16vh;">
+        <div class="card-header">
+          סינון
+        </div>
+        <div class="card-body">
+
+          <select class="form-select mb-2" [(ngModel)]="selectedCategoryId" (change)="filterCourses()">
+            <option [value]="0">כל הקטגוריות</option>
+            <option *ngFor="let category of categories" [value]="category.id">
+              {{ category.name }}
+            </option>
+          </select>
+
+          <select class="form-select mb-2" [(ngModel)]="selectedWayOfLearning" (change)="filterCourses()">
+            <option value="">בחר צורת למידה</option>
+            <option [value]="0">פרונטלי</option>
+            <option [value]="1">זום</option>
+          </select>
+
+      
+
+
+          <input type="text" class="form-control mb-2" [(ngModel)]="searchName"(keyup)="filterCourses()" placeholder="חיפוש לפי שם">
+ <button style="background-color: #ff69b4; border-color: #ff69b4;" class="form-control mb-2" (click)="ranon()" >כל הקורסים</button>
+          <button class="btn btn-primary" style="background-color: #ff69b4; border-color: #ff69b4;" (click)="filterCourses()">סנן</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-9">
+      <div class="row">
+        <div *ngFor="let course of courses" class="col-md-4 mb-3">
+          <div class="card">
+            <div class="card-img-container">
+              <img [src]="course.image" class="card-img" alt="{{course.name}}">
+              <div class="card-overlay"></div>
+            </div>
+            <div class="card-body card-hover">
+              <h5 class="card-title" style="color: #eea9c9;">{{course.name}}</h5>
+              <ng-container *ngIf="userJson">
+                <button class="btn btn-outline-primary boo" style="color: #495057; border-color: #495057;" (click)="details(course)">פרטים נוספים</button>
+              </ng-container>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,30 @@
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-<הפקודה_שלך>" crossorigin="anonymous" />
+</head>
+
+
+<app-header></app-header>
+<div class="custom-container">
+    <div class="form-wrapper">
+        <form [formGroup]="addForm">
+            <div class="input-group mb-3">
+                <span class="input-group-text"><i class="fas fa-user"></i></span>
+                <input  name="name" type="text" formControlName="name" class="form-control bg-gray" placeholder="Name">
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text"><i class="fas fa-lock"></i></span>
+                <input name="password" type="text" formControlName="password" class="form-control bg-gray" placeholder="Password">
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                <input name="email" type="email" formControlName="email" class="form-control bg-gray" placeholder="Email">
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text"><i class="fas fa-map-marker-alt"></i></span>
+                <input name="address" type="text" formControlName="address" class="form-control bg-gray" placeholder="Address">
+            </div>
+            <button (click)="register()" [disabled]="!addForm.valid" class="btn btn-pink">Register</button>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,41 @@
+<!-- <form [formGroup]="addForm">
+
+    <div>
+        <label>name:</label>
+        <input name="name" placeholder="enter a name" type="text" formControlName="name">
+    </div>
+    <div>
+        <label>password:</label>
+        <input name="password" placeholder="enter a passward" type=text formControlName="password">
+    </div>
+   
+    <button  (click)="save()" [disabled]="!addForm.valid">save</button>
+</form> -->
+
+ <!-- <div>
+        <label>I'm a Lecturer:</label>
+        <input  name="Lecturer" type="checkbox" formControlName="Lecturer">
+    </div> -->
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-<הפקודה_שלך>" crossorigin="anonymous" />
+    </head>
+    
+<app-header></app-header>
+    <div class="custom-container">
+        <div class="form-wrapper">
+          <form [formGroup]="addForm">
+            <div class="mb-4">
+              <label class="form-label text-rose"><i class="fas fa-user"></i> Name:</label>
+              <input name="name" placeholder="Enter a name" type="text" formControlName="name" class="form-control bg-gray">
+            </div>
+            <div class="mb-4">
+              <label class="form-label text-rose"><i class="fas fa-lock"></i> Password:</label>
+              <input name="password" placeholder="Enter a password" type="text" formControlName="password" class="form-control bg-gray">
+            </div>
+            <button (click)="save()" [disabled]="!addForm.valid" class="btn btn-pink">Save</button>
+          </form>
+        </div>
+      </div>
+            
+      
+    

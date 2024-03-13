@@ -1,0 +1,243 @@
+<!-- <form [formGroup]="courseForm" (ngSubmit)="onSubmit()">
+  <div class="form-group">
+    <label for="name">שם הקורס:</label>
+    <input value="name" type="text" id="name" formControlName="name" class="form-control" required>
+  </div>
+  <div class="form-group">
+    <label for="categoryId">קטגוריה:</label>
+    <select  id="categoryId" formControlName="categoryId" class="form-control">
+      <option  *ngFor="let category of categories" [value]="category.id">{{ category.name }}</option>
+    </select>6
+  </div>
+  <div class="form-group">
+    <label for="lessonsAmount">כמות שיעורים:</label>
+    <input type="number" id="lessonsAmount" formControlName="lessonsAmount" class="form-control" required>
+  </div>
+  <div class="form-group">
+    <label for="dateOfStart">תאריך התחלה:</label>
+    <input type="date" id="dateOfStart" formControlName="dateOfStart" class="form-control" required>
+  </div>
+  <div class="form-group">
+    <label for="silibus">תוכנית הלימודים:</label>
+    <ul formArrayName="silibus">
+      <li *ngFor="let item of silibus.controls; let i = index">
+        <input type="text" [(ngModel)]="item.value" name="silabusItem{{i}}" class="form-control" required>
+        <button type="button" class="btn btn-danger" (click)="removeSilabusItem(i)">הסר</button>
+      </li>
+    </ul>
+    <button type="button" class="btn btn-primary" (click)="addSilabusItem()">הוסף נושא</button>
+  </div>
+  <div class="form-group">
+    <label for="image">תמונה:</label>
+    <input type="text" id="image" formControlName="image" class="form-control">
+  </div>
+  <div class="form-group">
+    <label for="wayOfLearning">אופן הלמידה:</label>
+    <select id="wayOfLearning" formControlName="wayOfLearning"  class="form-control" required>
+      <option  [value]="0">פרונטלי</option>
+      <option [value]="1">זום</option>
+    </select>
+  </div>
+  <button type="submit" class="btn btn-primary">שמירה</button>
+</form> -->
+
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-<הפקודה_שלך>" crossorigin="anonymous" />
+</head>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css
+" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN6b1qRO8r7L5Rq8iK+nT5L38P5FfF5w" crossorigin="anonymous">
+
+  <style>
+    body {
+      background-color: #fff;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    form {
+      width: 75vw;
+      /* Changed width to 90% */
+      max-width: 55vw;
+      /* Adjusted max-width */
+      padding: 20px;
+      background-color: #f0f0f0;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      margin: 50px auto;
+      overflow: hidden;
+    
+
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input,
+    select {
+      width: calc(100% - 22px);
+      padding: 10px;
+      box-sizing: border-box;
+      background-color: #e0e0e0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .dropdown {
+      position: relative;
+    }
+
+    .dropdown-select {
+      width: calc(100% - 22px);
+      padding: 10px;
+      box-sizing: border-box;
+      background-color: #e0e0e0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      color: #000;
+    }
+
+    .dropdown-options {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: calc(100% - 22px);
+      max-height: 150px;
+      overflow-y: auto;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: #fff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      display: none;
+    }
+
+    .dropdown-options.active {
+      display: block;
+    }
+
+    .dropdown-option {
+      padding: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .dropdown-option:hover {
+      background-color: #ff89c0;
+      /* Changed hover color */
+      color: #fff;
+    }
+
+    .icon {
+      margin-right: 10px;
+    }
+
+    button {
+      background-color: #ff89c0;
+      /* Changed button color */
+
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      display: block;
+      margin-top: 15px;
+      transition: background-color 0.3s;
+      /* Added transition effect */
+    }
+
+    button:hover {
+      background-color: #d9469a;
+    }
+
+    /* Changed the hover color for dropdown options */
+    .dropdown-option:hover {
+      background-color: #ff89c0 !important;
+      color: #fff;
+    }
+  </style>
+  <title>Your Page Title</title>
+</head>
+
+<body>
+
+  <app-header></app-header>
+  <!-- Your form code goes here -->
+  <form [formGroup]="courseForm" (ngSubmit)="onSubmit()">
+
+    <div class="form-group">
+      <label for="name"><i class="fas fa-chalkboard-teacher icon"></i>Name Of Course :</label>
+      <input value="name" type="text" id="name" formControlName="name" required>
+    </div>
+
+    <div class="form-group">
+      <label for="categoryId"><i class="fas fa-list icon"></i>Category:</label>
+      <div class="dropdown">
+        <select id="categoryId" formControlName="categoryId" class="dropdown-select">
+          <option *ngFor="let category of categories" [value]="category.id">{{ category.name }}</option>
+        </select>
+        <div class="dropdown-options">
+          <div class="dropdown-option" *ngFor="let category of categories">{{ category.name }}</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="lessonsAmount"><i class="fas fa-book-open icon"></i>Amount Of Lessons :</label>
+      <input type="number" id="lessonsAmount" formControlName="lessonsAmount" class="form-control" required>
+
+    </div>
+
+    <div class="form-group">
+      <label for="dateOfStart"><i class="fas fa-calendar-alt icon"></i>Date Of Start :</label>
+      <input type="date" id="dateOfStart" formControlName="dateOfStart" required>
+    </div>
+
+    <div class="form-group">
+      <label for="silibus"><i class="fas fa-list-ol icon"></i>Silabus :</label>
+      <ul formArrayName="silibus">
+        <li *ngFor="let item of silibus.controls; let i = index">
+          <input type="text"  [(ngModel)]="item.value" name="silabusItem{{i}}" required>
+          <button type="button" (click)="removeSilabusItem( i)"><i class="fas fa-trash"></i> Remove</button>
+        </li>
+      </ul>
+      <button type="button" (click)="addSilabusItem()"><i class="fas fa-plus"></i> Add Subject </button>
+    </div>
+
+    <div class="form-group">
+      <label for="image"><i class="fas fa-image icon"></i>Image:</label>
+      <input type="text" id="image" formControlName="image">
+    </div>
+
+    <div class="form-group">
+      <label for="wayOfLearning"><i class="fas fa-chalkboard icon"></i>Way Of Learning :</label>
+      <div class="dropdown">
+        <select id="wayOfLearning" formControlName="wayOfLearning" class="dropdown-select">
+
+          <option [value]="0">Frontaly</option>
+          <option [value]="1">Zoom</option>
+        </select>
+    
+      </div>
+    </div>
+
+    <button type="submit"><i class="fas fa-save icon"></i> Save</button>
+
+  </form>
+
+</body>
+
+</html>

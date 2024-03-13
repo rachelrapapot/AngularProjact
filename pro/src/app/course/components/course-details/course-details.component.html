@@ -1,0 +1,136 @@
+
+    
+<!-- <app-header></app-header>
+      <h2>{{course.name}}</h2> -->
+      <!-- <p>{{category.name}}</p>
+      <p>{{category.pathToIcon}}</p> -->
+      <!-- <p>{{course.lessonsAmount}}</p>
+      <p>{{course.dateOfStart}}</p>
+      <ul>
+        <li *ngFor="let item of course.silibus">
+          {{item}}
+        </li>
+      </ul>      
+      <p>{{course.lecturerId}}</p>
+      <p>{{course.wayOfLearning}}</p>
+      <img src="{{course.image}}" alt="{{course.name}}">
+
+  <button  (click)="edit(course)">Edit Course</button>
+   -->
+   <style>
+    .bg-gray {
+      background-color: #f0f0f0;
+      padding: 10px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      text-align: center;
+      height: 10vh;
+    }
+    .bg-gray3 {
+      background-color: #f0f0f0;
+      padding: 10px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      text-align: center;
+      height: 17vh;
+    }
+    .bg-gray2 {
+      background-color: #f0f0f0;
+      padding: 10px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      text-align: center;
+      width: 60%;
+    }
+  
+    .course-info {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+  
+    .bg-gray,
+    .bg-gray2 {
+      margin-bottom: 10px;
+    }
+  
+    .custom-img-container {
+      width: 100%;
+      max-width: 900px;
+      margin: 0 auto;
+      overflow: hidden;
+      border-radius: 15px;
+      margin-top: 8vh;
+    }
+  
+    .name {
+      padding: 3px;
+      margin: 0;
+    }
+  
+    .custom-img-container img {
+      width: 100%;
+      border-radius: 15px;
+      margin-top: 10vh;
+    }
+  </style>
+  
+  <app-header></app-header>
+  
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-8">
+        <h2>{{course.name}}</h2>
+  
+        <div class="bg-gray">
+          <span class="fw-bold"><i class="fas fa-chalkboard"></i> Amount Of Lessons:</span>
+          <p style="font-size: 18px;" class="fw-bold">{{course.lessonsAmount}}</p>
+        <!-- <i class="{{ course.wayOfLearning | learningWay }}"></i> -->
+        </div>
+  
+        <div class="bg-gray">
+          <span class="fw-bold"><i class="fas fa-calendar-alt"></i> Date Of Start :</span>
+          <p>{{course.dateOfStart}}</p>
+        </div>
+  
+        <div class="bg-gray3">
+          <span class="fw-bold"><i class="fas fa-list-ul"></i> Silabus:</span>
+          <ul class="list-unstyled">
+            <li *ngFor="let item of course.silibus">{{item}}</li>
+          </ul>
+        </div>
+  
+        <div class="bg-gray">
+          <span class="fw-bold"><i class="fas fa-bookmark"></i> Name Of Category :</span>
+          <p>
+            <i class="{{categoryId.pathToIcon}}"></i>
+            {{categoryId.name}}
+          </p>
+        </div>
+  
+        <div class="bg-gray">
+          <span class="fw-bold"><i class="fas fa-user"></i> Lecturer Id:</span>
+          <p>{{course.lecturerId}}</p>
+        </div>
+  
+        <div class="bg-gray">
+          <span class="fw-bold"><i class="fas fa-book-open"></i> Way Of Learning :</span>
+          <p *ngIf="course.wayOfLearning==1">Frontaly</p>
+          <p *ngIf="course.wayOfLearning==0">Zoom</p>
+        </div>
+  
+        <button *ngIf="isLec" style="background-color: #ff69b4; border-color: #ff69b4; font-size: 14px;" class="btn btn-danger mb-2"
+          (click)="edit(course)"><i class="fas fa-edit"></i> Edit Course </button>
+      </div>
+  
+      <div class="col-md-4 text-center">
+        <div class="bg-gray2 custom-img-container">
+          <span class="fw-bold"><i class="far fa-image"></i> Image Of The Course :</span>
+          <div class="img-thumbnail shadow mx-auto d-block mt-2">
+            <img src="{{course.image}}" alt="{{course.name}}" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

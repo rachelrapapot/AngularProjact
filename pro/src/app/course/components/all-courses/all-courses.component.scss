@@ -1,0 +1,57 @@
+.card {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px; /* רווח בין הרבועים */
+    height:40vh !important;
+  }
+  body{
+    background-color: rgb(194, 46, 95);
+  }
+  
+  .card-img-container {
+    position: relative;
+    overflow: hidden;
+    perspective: 700px;
+    height: 75vh; /* גובה רצוי של התמונה */
+  }
+  
+  .card-img {
+    width: 100%;
+    height: auto;
+   
+  }
+  
+  .card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);  
+    pointer-events: none; /* אין תגובה לאירועים על הקארד עצמו */
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-hover:hover .card-overlay {
+   
+    background-color: rgba(0, 0, 0, 0.5); /* שקיפות על התמונה בעת עברת עכבר */
+  }
+  
+.card-img-top {
+    max-width: 100%;
+    height:auto;
+  }
+.boo:hover{
+background-color: rgb(255, 172, 200);
+}
+.boo{
+    border-color: rgb(243, 177, 199) !important;
+}
+  
+.card-img-top {
+    max-width: 100%;
+    height: 40vh;
+  }

@@ -1,0 +1,96 @@
+C:\Users\User\Desktop\Projact Angular\AngularServer\AngularServer\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\User\Desktop\Projact Angular\AngularServer\AngularServer\bin\Debug\net8.0\appsettings.json
+C:\Users\User\Desktop\Projact Angular\AngularServer\AngularServer\bin\Debug\net8.0\AngularServer.exe
+C:\Users\User\Desktop\Projact Angular\AngularServer\AngularServer\bin\Debug\net8.0\AngularServer.deps.json
+C:\Users\User\Desktop\Projact Angular\AngularServer\AngularServer\bin\Debug\net8.0\AngularServer.runtimeconfig.json
+C:\Users\User\Desktop\Projact Angular\AngularServer\AngularServer\bin\Debug\net8.0\AngularServer.dll
+C:\Users\User\Desktop\Projact Angular\AngularServer\AngularServer\bin\Debug\net8.0\AngularServer.pdb
+C:\Users\User\Desktop\Projact Angular\AngularServer\AngularServer\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\User\Desktop\Projact Angular\AngularServer\AngularServer\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\User\Desktop\Projact Angular\AngularServer\AngularServer\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\User\Desktop\Projact Angular\AngularServer\AngularServer\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\User\Desktop\Projact Angular\AngularServer\AngularServer\obj\Debug\net8.0\AngularServer.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Projact Angular\AngularServer\AngularServer\obj\Debug\net8.0\AngularServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Projact Angular\AngularServer\AngularServer\obj\Debug\net8.0\AngularServer.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Projact Angular\AngularServer\AngularServer\obj\Debug\net8.0\AngularServer.AssemblyInfo.cs
+C:\Users\User\Desktop\Projact Angular\AngularServer\AngularServer\obj\Debug\net8.0\AngularServer.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Projact Angular\AngularServer\AngularServer\obj\Debug\net8.0\AngularServer.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User\Desktop\Projact Angular\AngularServer\AngularServer\obj\Debug\net8.0\AngularServer.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\Desktop\Projact Angular\AngularServer\AngularServer\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\User\Desktop\Projact Angular\AngularServer\AngularServer\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\User\Desktop\Projact Angular\AngularServer\AngularServer\obj\Debug\net8.0\staticwebassets\msbuild.AngularServer.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\User\Desktop\Projact Angular\AngularServer\AngularServer\obj\Debug\net8.0\staticwebassets\msbuild.build.AngularServer.props
+C:\Users\User\Desktop\Projact Angular\AngularServer\AngularServer\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.AngularServer.props
+C:\Users\User\Desktop\Projact Angular\AngularServer\AngularServer\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.AngularServer.props
+C:\Users\User\Desktop\Projact Angular\AngularServer\AngularServer\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\User\Desktop\Projact Angular\AngularServer\AngularServer\obj\Debug\net8.0\scopedcss\bundle\AngularServer.styles.css
+C:\Users\User\Desktop\Projact Angular\AngularServer\AngularServer\obj\Debug\net8.0\AngularServer.csproj.CopyComplete
+C:\Users\User\Desktop\Projact Angular\AngularServer\AngularServer\obj\Debug\net8.0\AngularServer.dll
+C:\Users\User\Desktop\Projact Angular\AngularServer\AngularServer\obj\Debug\net8.0\refint\AngularServer.dll
+C:\Users\User\Desktop\Projact Angular\AngularServer\AngularServer\obj\Debug\net8.0\AngularServer.pdb
+C:\Users\User\Desktop\Projact Angular\AngularServer\AngularServer\obj\Debug\net8.0\AngularServer.genruntimeconfig.cache
+C:\Users\User\Desktop\Projact Angular\AngularServer\AngularServer\obj\Debug\net8.0\ref\AngularServer.dll
+C:\Users\user1\Desktop\allllllllllllll\AngularServer\AngularServer\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\user1\Desktop\allllllllllllll\AngularServer\AngularServer\bin\Debug\net8.0\appsettings.json
+C:\Users\user1\Desktop\allllllllllllll\AngularServer\AngularServer\bin\Debug\net8.0\AngularServer.exe
+C:\Users\user1\Desktop\allllllllllllll\AngularServer\AngularServer\bin\Debug\net8.0\AngularServer.deps.json
+C:\Users\user1\Desktop\allllllllllllll\AngularServer\AngularServer\bin\Debug\net8.0\AngularServer.runtimeconfig.json
+C:\Users\user1\Desktop\allllllllllllll\AngularServer\AngularServer\bin\Debug\net8.0\AngularServer.dll
+C:\Users\user1\Desktop\allllllllllllll\AngularServer\AngularServer\bin\Debug\net8.0\AngularServer.pdb
+C:\Users\user1\Desktop\allllllllllllll\AngularServer\AngularServer\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\user1\Desktop\allllllllllllll\AngularServer\AngularServer\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\user1\Desktop\allllllllllllll\AngularServer\AngularServer\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\user1\Desktop\allllllllllllll\AngularServer\AngularServer\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\user1\Desktop\allllllllllllll\AngularServer\AngularServer\obj\Debug\net8.0\AngularServer.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\allllllllllllll\AngularServer\AngularServer\obj\Debug\net8.0\AngularServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\allllllllllllll\AngularServer\AngularServer\obj\Debug\net8.0\AngularServer.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\allllllllllllll\AngularServer\AngularServer\obj\Debug\net8.0\AngularServer.AssemblyInfo.cs
+C:\Users\user1\Desktop\allllllllllllll\AngularServer\AngularServer\obj\Debug\net8.0\AngularServer.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\allllllllllllll\AngularServer\AngularServer\obj\Debug\net8.0\AngularServer.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\user1\Desktop\allllllllllllll\AngularServer\AngularServer\obj\Debug\net8.0\AngularServer.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user1\Desktop\allllllllllllll\AngularServer\AngularServer\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\user1\Desktop\allllllllllllll\AngularServer\AngularServer\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\user1\Desktop\allllllllllllll\AngularServer\AngularServer\obj\Debug\net8.0\staticwebassets\msbuild.AngularServer.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\user1\Desktop\allllllllllllll\AngularServer\AngularServer\obj\Debug\net8.0\staticwebassets\msbuild.build.AngularServer.props
+C:\Users\user1\Desktop\allllllllllllll\AngularServer\AngularServer\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.AngularServer.props
+C:\Users\user1\Desktop\allllllllllllll\AngularServer\AngularServer\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.AngularServer.props
+C:\Users\user1\Desktop\allllllllllllll\AngularServer\AngularServer\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\user1\Desktop\allllllllllllll\AngularServer\AngularServer\obj\Debug\net8.0\scopedcss\bundle\AngularServer.styles.css
+C:\Users\user1\Desktop\allllllllllllll\AngularServer\AngularServer\obj\Debug\net8.0\AngularServer.csproj.CopyComplete
+C:\Users\user1\Desktop\allllllllllllll\AngularServer\AngularServer\obj\Debug\net8.0\AngularServer.dll
+C:\Users\user1\Desktop\allllllllllllll\AngularServer\AngularServer\obj\Debug\net8.0\refint\AngularServer.dll
+C:\Users\user1\Desktop\allllllllllllll\AngularServer\AngularServer\obj\Debug\net8.0\AngularServer.pdb
+C:\Users\user1\Desktop\allllllllllllll\AngularServer\AngularServer\obj\Debug\net8.0\AngularServer.genruntimeconfig.cache
+C:\Users\user1\Desktop\allllllllllllll\AngularServer\AngularServer\obj\Debug\net8.0\ref\AngularServer.dll
+C:\Users\User\Downloads\AngularServer\AngularServer\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\User\Downloads\AngularServer\AngularServer\bin\Debug\net8.0\appsettings.json
+C:\Users\User\Downloads\AngularServer\AngularServer\bin\Debug\net8.0\AngularServer.exe
+C:\Users\User\Downloads\AngularServer\AngularServer\bin\Debug\net8.0\AngularServer.deps.json
+C:\Users\User\Downloads\AngularServer\AngularServer\bin\Debug\net8.0\AngularServer.runtimeconfig.json
+C:\Users\User\Downloads\AngularServer\AngularServer\bin\Debug\net8.0\AngularServer.dll
+C:\Users\User\Downloads\AngularServer\AngularServer\bin\Debug\net8.0\AngularServer.pdb
+C:\Users\User\Downloads\AngularServer\AngularServer\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\User\Downloads\AngularServer\AngularServer\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\User\Downloads\AngularServer\AngularServer\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\User\Downloads\AngularServer\AngularServer\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\User\Downloads\AngularServer\AngularServer\obj\Debug\net8.0\AngularServer.csproj.AssemblyReference.cache
+C:\Users\User\Downloads\AngularServer\AngularServer\obj\Debug\net8.0\AngularServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Downloads\AngularServer\AngularServer\obj\Debug\net8.0\AngularServer.AssemblyInfoInputs.cache
+C:\Users\User\Downloads\AngularServer\AngularServer\obj\Debug\net8.0\AngularServer.AssemblyInfo.cs
+C:\Users\User\Downloads\AngularServer\AngularServer\obj\Debug\net8.0\AngularServer.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\AngularServer\AngularServer\obj\Debug\net8.0\AngularServer.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User\Downloads\AngularServer\AngularServer\obj\Debug\net8.0\AngularServer.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\Downloads\AngularServer\AngularServer\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\User\Downloads\AngularServer\AngularServer\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\User\Downloads\AngularServer\AngularServer\obj\Debug\net8.0\staticwebassets\msbuild.AngularServer.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\User\Downloads\AngularServer\AngularServer\obj\Debug\net8.0\staticwebassets\msbuild.build.AngularServer.props
+C:\Users\User\Downloads\AngularServer\AngularServer\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.AngularServer.props
+C:\Users\User\Downloads\AngularServer\AngularServer\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.AngularServer.props
+C:\Users\User\Downloads\AngularServer\AngularServer\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\User\Downloads\AngularServer\AngularServer\obj\Debug\net8.0\scopedcss\bundle\AngularServer.styles.css
+C:\Users\User\Downloads\AngularServer\AngularServer\obj\Debug\net8.0\AngularServer.csproj.CopyComplete
+C:\Users\User\Downloads\AngularServer\AngularServer\obj\Debug\net8.0\AngularServer.dll
+C:\Users\User\Downloads\AngularServer\AngularServer\obj\Debug\net8.0\refint\AngularServer.dll
+C:\Users\User\Downloads\AngularServer\AngularServer\obj\Debug\net8.0\AngularServer.pdb
+C:\Users\User\Downloads\AngularServer\AngularServer\obj\Debug\net8.0\AngularServer.genruntimeconfig.cache
+C:\Users\User\Downloads\AngularServer\AngularServer\obj\Debug\net8.0\ref\AngularServer.dll

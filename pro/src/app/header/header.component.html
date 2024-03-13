@@ -1,0 +1,56 @@
+<!-- <a routerLink="/home">בית</a>
+<ng-container *ngIf="!userJson">
+  <a routerLink="/Login">התחברות</a>
+  <a routerLink="/register">הרשמה</a>
+</ng-container>
+
+<a routerLink="/EditCourse">הוספת קורס</a>
+<a routerLink="/AllCourse">כל הקורסים</a>
+<button (click)="logout()">LogOut</button> -->
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-<הפקודה_שלך>" crossorigin="anonymous" />
+</head>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" routerLink="/home">
+      <i class="fas fa-home"></i> Home
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <ng-container *ngIf="!userJson">
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/Login">
+              <i class="fas fa-sign-in-alt"></i> Login
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/register">
+              <i class="fas fa-user-plus"></i> Signin
+            </a>
+          </li>
+        </ng-container>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/EditCourse">
+            <i class="fas fa-plus-circle"></i> Add Course 
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/AllCourse">
+            <i class="fas fa-list"></i>  All Courses
+          </a>
+        </li>
+        <ng-container *ngIf="userJson">
+        <li class="nav-item">
+          <button (click)="logout()" class="btn btn-light" style="background-color: #FF69B4; color: white; border: none; border-radius: 5px; transition: 0.3s;">
+            <i class="fas fa-sign-out-alt"></i> Log Out
+        
+          </button>
+        </li>  </ng-container>
+      </ul>
+    </div>
+  </div>
+</nav>
+
