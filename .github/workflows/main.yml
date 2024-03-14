@@ -16,7 +16,7 @@ jobs:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: ${{ secrets.AWS_REGION }}
-      - name: Build React App
+      - name: Build Angular App
         run: npm install && ng build --prod
       - name: Deploy app build to S3 bucket
         run: aws s3 sync ./dist/ s3://racheli-app
