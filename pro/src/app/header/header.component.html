@@ -33,7 +33,7 @@
           </li>
         </ng-container>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/EditCourse">
+          <a *ngIf="isLecturer()"class="nav-link" routerLink="/EditCourse">
             <i class="fas fa-plus-circle"></i> Add Course 
           </a>
         </li>

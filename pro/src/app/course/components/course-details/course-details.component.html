@@ -85,7 +85,7 @@
         <div class="bg-gray">
           <span class="fw-bold"><i class="fas fa-chalkboard"></i> Amount Of Lessons:</span>
           <p style="font-size: 18px;" class="fw-bold">{{course.lessonsAmount}}</p>
-        <!-- <i class="{{ course.wayOfLearning | learningWay }}"></i> -->
+        
         </div>
   
         <div class="bg-gray">
@@ -115,14 +115,16 @@
   
         <div class="bg-gray">
           <span class="fw-bold"><i class="fas fa-book-open"></i> Way Of Learning :</span>
-          <p *ngIf="course.wayOfLearning==1">Frontaly</p>
-          <p *ngIf="course.wayOfLearning==0">Zoom</p>
-        </div>
+          <p *ngIf="course.wayOfLearning==1" >  <i class="{{ course.wayOfLearning | learningWay }}"></i>
+          Frontaly</p>
+          <p *ngIf="course.wayOfLearning==0">  <i class="{{ course.wayOfLearning | learningWay }}"></i>
+          Zoom</p>
+        
   
         <button *ngIf="isLec" style="background-color: #ff69b4; border-color: #ff69b4; font-size: 14px;" class="btn btn-danger mb-2"
           (click)="edit(course)"><i class="fas fa-edit"></i> Edit Course </button>
       </div>
-  
+      </div>
       <div class="col-md-4 text-center">
         <div class="bg-gray2 custom-img-container">
           <span class="fw-bold"><i class="far fa-image"></i> Image Of The Course :</span>

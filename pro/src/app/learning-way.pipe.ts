@@ -10,10 +10,11 @@ export class LearningWayPipe implements PipeTransform {
     console.log(learningWay);
     
     switch (learningWay) {
-      case 0:
-        return 'pi pi-video';
       case 1:
-        return 'pi pi-users';
+        return 'fas fa-book';
+      case 0:
+        return 'far fa-image';
+        
       default:
         return '';
     }

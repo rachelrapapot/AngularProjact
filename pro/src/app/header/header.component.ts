@@ -17,8 +17,14 @@ export class HeaderComponent {
   }
  public logout(){
  localStorage.setItem("user","")
+ localStorage.setItem("lectuerer", "")
  window.location.reload();
 //  this.router.navigate(["/home"])
 }
-
+isLecturer(){
+  const l=localStorage.getItem("lectuerer")
+  if(l=="true")
+  return true
+return false
+}
 }

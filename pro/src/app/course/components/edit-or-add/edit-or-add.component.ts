@@ -127,7 +127,9 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { CourseService } from '../../../course.service';
 import { CategoryService } from '../../../category.service';
 import { Category } from '../../../category.model';
-import { HeaderComponent } from "../../../header/header.component";
+import { HeaderComponent } from "../../../header/header.component"
+
+;
 
 @Component({
     selector: 'app-edit-or-add',
@@ -187,6 +189,9 @@ export class AddCourseComponent implements OnInit {
 
   addSilabusItem() {
     this.silibus.push(new FormControl('', [Validators.required]));
+  }
+ getSilabusItem(num:number) {
+   return this.silibus.at(num);
   }
 
 
@@ -273,6 +278,11 @@ export class AddCourseComponent implements OnInit {
            },
          });
      }
+     getSyllabusControl(index: number) {
+      return this.silibus.at(index) as FormControl;
+    }
+  
+  
    }
   
  

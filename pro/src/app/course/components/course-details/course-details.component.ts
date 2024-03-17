@@ -8,6 +8,7 @@ import { LecturerService } from '../../../lecturer.service';
 import { User } from '../../../user.model';
 import { CommonModule, NgFor } from '@angular/common';
 import { HeaderComponent } from "../../../header/header.component";
+import { LearningWayPipe } from "../../../learning-way.pipe";
 
 
 @Component({
@@ -15,8 +16,7 @@ import { HeaderComponent } from "../../../header/header.component";
     standalone: true,
     templateUrl: './course-details.component.html',
     styleUrl: './course-details.component.scss',
-    imports: [CommonModule, NgFor, HeaderComponent]
-   
+    imports: [CommonModule, NgFor, HeaderComponent, LearningWayPipe]
 })
 export class CourseDetailsComponent implements OnInit{
 

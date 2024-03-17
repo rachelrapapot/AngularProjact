@@ -55,3 +55,8 @@ background-color: rgb(255, 172, 200);
     max-width: 100%;
     height: 40vh;
   }
+  .card.glowing {
+    /* Add your desired glow effect styles here, e.g., box-shadow, border, etc. */
+    /* Example: */
+    box-shadow: 0 0 15px rgba(237, 234, 49, 0.5);
+  }

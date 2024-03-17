@@ -232,4 +232,10 @@ export class AllCoursesComponent implements OnInit {
   public ranon() {
     window.location.reload();
   }
+  isCourseStartingSoon(course: Course): boolean {
+    const today = new Date();
+    const courseStartDate = new Date(Date.parse(course.dateOfStart)); // Assuming date parsing works correctly
+    const differenceInDays = Math.floor((courseStartDate.getTime() - today.getTime()) / (1000 * 60 * 60 * 24));
+    return differenceInDays >= 0 && differenceInDays < 7;
+  }
 }

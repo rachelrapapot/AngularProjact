@@ -30,12 +30,15 @@
             </div>
             <div class="mb-4">
               <label class="form-label text-rose"><i class="fas fa-lock"></i> Password:</label>
-              <input name="password" placeholder="Enter a password" type="text" formControlName="password" class="form-control bg-gray">
+              <input name="password" placeholder="Enter a password" type="password" formControlName="password" class="form-control bg-gray">
             </div>
+          
             <button (click)="save()" [disabled]="!addForm.valid" class="btn btn-pink">Save</button>
           </form>
         </div>
       </div>
+    
+
             
       
     
