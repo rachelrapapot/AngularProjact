@@ -65,11 +65,11 @@
           "configurations": {
             "production": {
               "buildTarget": "pro:build:production",
-              "proxyConfig": "C:/Users/user1/Desktop/allllllllllllll/pro/src/app/proxy.config.json"
+              "proxyConfig": "src/app/proxy.config.json"
             },
             "development": {
               "buildTarget": "pro:build:development",
-              "proxyConfig": "C:/Users/user1/Desktop/allllllllllllll/pro/src/app/proxy.config.json"
+              "proxyConfig": "src/app/proxy.config.json"
             }
           },
           "defaultConfiguration": "development"
